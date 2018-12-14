@@ -6,6 +6,6 @@ html,body,h1,h2,h3,div,p,ul,li{
 .chart{
 	width:900px;
 	height:500px;
-	background:red;
+	background: none;
 	margin:auto;
 }

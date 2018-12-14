@@ -16,14 +16,14 @@ footer{
 	position:absolute;
 }
 .sidebar{
-	background:yellow;
+	background-color:yellow;
 	top:0;
 	bottom:100px;
 	left:0;
 	right:70%;
 }
 .main-viz{
-	background:blue;
+	background-color:blue;
 	top:0;
 	bottom:100px;
 	left:30%;

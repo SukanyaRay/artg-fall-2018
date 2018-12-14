@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='../../lib/bootstrap/css/bootstrap.min.css' rel='stylesheet' />
+    <link href='style.css' rel='stylesheet' />
+</head>
+<body>
+    <form>
+        <label for="year">Drag for a year: </label>
+        <input type="range" min=1960 max=2017 step=1 id="year" value=1960 oninput="selected_year.value = year.value">
+        <output name="selected_year" id="selected_year">1960</output>
+    </form>
+    <div class='plot'>
+    </div>
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
